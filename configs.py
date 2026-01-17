@@ -8,7 +8,7 @@ class Config:
     # Admin / Owner IDs
     SUDO = list(map(int, getenv(
         "SUDO",
-        "7554081592 6483216200 7564050858 5656436152"
+        "7554081592 8304582399 7564050858 5656436152"
     ).split()))
 
     MONGO_URI = getenv(
